@@ -7,8 +7,10 @@ body{
     padding: 0;
 font-family: 'Rubik', sans-serif;
 }
-.site-header{
-    background-color: #F6F6F6;;
+.site-header-top-color{
+    padding: 43px 0 43px;
+    background-color: #F6F6F6;
+    color: black;
 }
 .container{
     max-width: 1240px;
@@ -44,19 +46,21 @@ border-radius: 7px;
 }
 .header-top-buttom{
     display: inline-block;
-    margin-right: 25px;
 }
 .link{
 padding: 13px 20px;
-background-color: #7296EC;  
+background-color: #7296EC; 
+color: black; 
 border-radius: 10px;  
 text-decoration: none;    
 }
 .nav-list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+display: flex;
+align-items: center;
+list-style: none;
+padding: 0;
+margin: 0;
+flex-wrap: wrap; 
 }
 .nav-item{
 font-style: normal;
@@ -65,10 +69,25 @@ font-size: 18px;
 line-height: 21px;
 text-align: center;
 }
-.nav-item:first-child{
+.nav-item:not(:last-child){
 margin-right: 34.44px;
 }
+.site-header-bottom-hr{
+margin: 0;
+padding: 0;
+background-color: #D1D1D1;    
+color: #D1D1D1;
+}
+
+/* site-main */
+
+.main-hero-img{
+margin: 0;
+padding: 0;   
+width: 1200px;
+height: 128px;
+}
 a{
-    text-decoration: none; 
-    color: #7F7F7F; 
+text-decoration: none; 
+color: #7F7F7F; 
 }
