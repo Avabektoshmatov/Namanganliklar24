@@ -257,9 +257,9 @@ body{
     font-size: 12px;
     line-height: 14px;
     color: #5E5F61;
-Notification-cta }
+}
 
-/* */
+/* Notification-cta */
 .notification-cta{
     display: flex;
     justify-content: space-between;
