@@ -206,7 +206,7 @@ body{
 .article-card-link:hover {
     color: #7296EC;
 }
-.article-card-link {
+.article-card-link:active{
     opacity: 0.6px;
 }
 .article-card-text {
@@ -230,12 +230,15 @@ body{
     align-items: center;
 }
 .artical-card-source-icone {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
     margin-right: 10px;
 }
 .artical-card-sourse-time {
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-color: #5E5F61;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5E5F61;
 }
