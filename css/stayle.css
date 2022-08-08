@@ -136,6 +136,12 @@ body{
     color: #FFFFFF;
     border-radius: 10px;
 }
+.button-gray{
+    padding: 17px;
+    width: 100%;
+    background: #EAEAEA;
+    border-radius: 10px;
+}
 
 /* site-header-nav */
 
@@ -186,6 +192,7 @@ body{
 .site-main-content{
     flex-grow: 1;
     padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 /* News-grid*/
@@ -278,26 +285,24 @@ body{
 }
 
 /* Global-news */
-h4{
+.global-news{
+    flex-grow: 1;
     margin: 0;
     padding: 0;
-    margin-bottom: 20px;
+}
+.global-news-heading{
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
 }
-.global-news{
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-.global-news-grid {
-    width: 797px;
+.global-news-list{
+    margin-right: 10px;
+    margin-top: 20px;
 }
 .global-news-artical-card {
+    flex-grow: 1;
     display: flex;
-    margin-right: 10px;
     margin-bottom: 10px;
     padding: 20px 20px 20px 17px;
     border-radius: 15px;
@@ -341,23 +346,83 @@ h4{
 }
 .artical-card-sourc-icone{
     display: block;
+    object-fit: cover;
     margin-right: 10px;
 }
-/*  */
-.global-news-main-card{
-    height: 502px;
-    background-color: #F6F6F6;
-    border-radius: 15px;
+
+.leyout2-1{
+    display: flex;
+    align-items: flex-start;
 }
-.main-card-list{
+.leyout2-1-main{
+    width: 797px;
+    margin-right: 10;
+}
+.leyuot2-1-sidebar{
+    width: 393px;
+    margin-top: 65px;
+}
+.leyout2-1-sidebar-item:not(:last-child) {
+    margin-top: 10px;
+}
+
+/* sidebar-news-card */
+.sidebar-news-card {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #F6F6F6;
+    color: #000;
+}
+.sitdebar-news-card-heading {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.sidebar-card-list {
     margin: 0;
     padding: 0;
-    padding-left: 17px;
+    list-style: none;
 }
-.main-card-list-titel{
-    font-style: normal;
-    font-weight: 500;
+.sidebar-card-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sidebar-card-item:first-child{
+    padding-top: 0;
+}
+.sidebar-card-item:last-child{
+    padding-bottom: 0;
+}
+.sidebar-card-item:not(:last-child){
+    border-bottom: 2px solid #D2D2D2;
+}
+.sidebar-card-title {
+    margin-top: 0;
+    margin-bottom: 8px;
     font-size: 18px;
+    font-weight: 500;
     line-height: 24px;
-    color: #000000;
+}
+.sidebar-card-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+}
+.sidebar-card-source-time {
+    font-size: 13px;
+    line-height: normal;
+    color: #5E5F61;
+}
+
+/* sidebar-add */
+.leyout2-1-sidebar-add-item{
+    margin-top: 10px;
+}
+.sidebar-add-img {
+    width: 393px;
+    height: 338px;
+    border-radius: 15px;
+    object-fit: cover;
 }
