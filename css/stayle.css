@@ -708,3 +708,39 @@ body{
     line-height: 19px;
     color: #000000;
 }
+
+
+/* modal */
+.modal-img{
+    background-image: url(../img/footer-icons/bodybacround.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+.modal{
+    margin: 0;
+    padding: 0;
+    width: 850px;
+    height: 251px;
+    margin-top: 390px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+.modal-stayle{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.modal-titel{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+.modal-link{
+    margin-top: 25px;
+    margin-left: 350px;
+}
